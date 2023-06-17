@@ -5,6 +5,7 @@ async function loadModel() {
 }
 
 
+
 // Run predictions on input data
 async function predict() {
   const model = await loadModel();
