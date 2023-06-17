@@ -1,8 +1,9 @@
 // Load the model
 async function loadModel() {
-  const model = await tf.loadLayersModel('path/to/model.json');
+  const model = await tf.loadLayersModel('model.json');
   return model;
 }
+
 
 // Run predictions on input data
 async function predict() {
