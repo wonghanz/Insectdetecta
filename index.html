@@ -49,7 +49,7 @@
 
     // Preprocess the input image
     function preprocessImage(image) {
-      const tensor = tf.browser.fromPixels(image).resize([YOUR_IMAGE_WIDTH, YOUR_IMAGE_HEIGHT]);
+      const tensor = tf.browser.fromPixels(image).resize([224, 224]);
       // Preprocessing steps specific to your model, such as normalization, resizing, etc.
       return tensor;
     }
